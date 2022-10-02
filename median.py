@@ -13,7 +13,7 @@ print(numbers)
 numbers.sort()
 if (numbers.len() == 0):
     print("Empty list so no median.")
-    return 0
+    return numbers.sort()
 elif (numbers.len() == 1):
     return numbers[0]
 else:
