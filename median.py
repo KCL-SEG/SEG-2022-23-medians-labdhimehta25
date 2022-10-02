@@ -11,10 +11,7 @@ while True:
         break
 print(numbers)
 numbers.sort()
-if (numbers.len() == 0):
-    print("Empty list so no median.")
-    return numbers.sort()
-elif (numbers.len() == 1):
+if (numbers.len() == 1):
     return numbers[0]
 else:
     if (numbers.len()%2 == 0):
