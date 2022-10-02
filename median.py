@@ -10,13 +10,13 @@ while True:
     else:
         break
 print(numbers)
+numbers.sort()
 if (numbers.len() == 0):
     print("Empty list so no median.")
     return 0
 elif (numbers.len() == 1):
     return numbers[0]
 else:
-    numbers.sort()
     if (numbers.len()%2 == 0):
         median = (numbers[(numbers.len()/2)] + numbers[(numbers.len()/2)+1]) /2
         return median
