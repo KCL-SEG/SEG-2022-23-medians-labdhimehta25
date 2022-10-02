@@ -13,7 +13,7 @@ print(numbers)
 if (numbers.len() == 0):
     print("Empty list so no median.")
     return 0
-else if (numbers.len() == 1):
+elif (numbers.len() == 1):
     return numbers[0]
 else:
     numbers.sort()
@@ -23,4 +23,3 @@ else:
     else:
         medianvalue = numbers[(numbers.len()+1) / 2]
         return medianvalue
-    
