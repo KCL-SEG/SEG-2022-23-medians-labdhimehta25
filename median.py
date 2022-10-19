@@ -8,7 +8,7 @@ while True:
         numbers = [float(value) for value in input().split(",")]
         numbers = sorted(numbers)
         if (len(numbers) % 2 == 0):
-            median = (numbers[len(numbers)//2 - 1] + numbers[len(numbers)//2] /2)
+            median = (numbers[len(numbers)//2 - 1] + numbers[len(numbers)//2]) /2
         else:
             median = numbers[len(numbers)//2]
 
